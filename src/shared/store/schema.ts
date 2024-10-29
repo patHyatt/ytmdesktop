@@ -37,6 +37,7 @@ export type StoreSchema = {
     thumbsDown: string;
     volumeUp: string;
     volumeDown: string;
+    shuffle: string;
   };
   state: {
     lastUrl: string;
@@ -60,6 +61,7 @@ export type StoreSchema = {
 export type MemoryStoreSchema = {
   discordPresenceConnectionFailed: boolean;
   shortcutsPlayPauseRegisterFailed: boolean;
+  shortcutsShuffleRegisterFailed: boolean;
   shortcutsNextRegisterFailed: boolean;
   shortcutsPreviousRegisterFailed: boolean;
   shortcutsThumbsUpRegisterFailed: boolean;
